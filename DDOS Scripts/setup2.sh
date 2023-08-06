@@ -1,0 +1,36 @@
+#!/bin/bash
+#   This script is setup all methods :p please install gcc RootSec
+gcc -o ssdp ssdp.c -pthread
+gcc -o ssdpscan ssdpscan.c -pthread
+gcc -o ntp ntp.c -pthread
+gcc -o dns dns.c -pthread
+gcc -o chargen chargen.c -pthread
+gcc -o snmp snmp.c -pthread
+gcc -o sentinel sentinel.c -pthread
+gcc -o netbios netbios.c -pthread
+gcc -o mssql mssql.c -pthread
+gcc -o ts3 ts3.c -pthread
+gcc -o db2 db2.c -pthread
+gcc -o portmap portmap.c -pthread
+gcc -o udp udp.c -pthread
+gcc -o vse vse.c -pthread
+gcc -o telnet telnet.c -pthread
+gcc -o home home.c -pthread
+gcc -o tcp tcp.c -pthread
+gcc -o tcp-se tcp-se.c -pthread
+gcc -o tcp-ack tcp-ack.c -pthread
+gcc -o tcp-rst tcp-rst.c -pthread
+gcc -o tcp-psh tcp-psh.c -pthread
+gcc -o tcp-fin tcp-fin.c -pthread
+gcc -o tcp-xmas tcp-xmas.c -pthread
+gcc -o wizard wizard.c -pthread
+gcc -o dominate dominate.c -pthread
+gcc -o zap zap.c -pthread
+gcc -o ssyn ssyn.c -pthread
+gcc -o essyn essyn.c -pthread
+gcc -o issyn issyn.c -pthread
+gcc -o xsyn xsyn.c -pthread
+gcc -o zsyn zsyn.c -pthread
+gcc -o csyn csyn.c -pthread
+gcc -o ghp ghp.c -pthread
+gcc -o xmlrpc xmlrpc.c -pthread
